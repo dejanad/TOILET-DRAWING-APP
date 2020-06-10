@@ -30,7 +30,7 @@ function setup() {
   
   colorPicker = createColorPicker('orange');//first colour it loads
   colorPicker.position(13,60);
-  slider = createSlider(5,70,10);//first slider it loads
+  slider = createSlider(5,70,20);//first slider it loads
   slider.position(10,120);
    
   socket = io.connect('http://localhost:3000');
@@ -85,7 +85,7 @@ plane(600, 900);
   plane(690, 900);
   pop();
 
-  publicLoo.play();
+  // publicLoo.play();
   
 }
 
